@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: webpack
+Version: 6.0.0
+Summary: Python bindings to Webpack
+Home-page: https://github.com/markfinger/python-webpack
+Author: Mark Finger
+Author-email: markfinger@gmail.com
+License: UNKNOWN
+Description: Documentation at https://github.com/markfinger/python-webpack
+Platform: UNKNOWN
