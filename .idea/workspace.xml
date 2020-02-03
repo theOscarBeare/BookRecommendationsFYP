@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="382b4eb3-c164-4734-994c-2e123005b3e2" name="Default Changelist" comment="" />
+    <list default="true" id="382b4eb3-c164-4734-994c-2e123005b3e2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookRecommendationsFYP/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookRecommendationsFYP/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookRecommendationsFYP/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookRecommendationsFYP/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/DropDown.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/DropDown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/templates/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/templates/frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,9 +80,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XIFmLivWwglwzSa04uPDOP3Geh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlite&#10;postgresql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -85,11 +98,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\frontend\templates\frontend" />
+      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\frontend\templates" />
+      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\frontend" />
+      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\templates" />
       <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP" />
-      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\BookRecommendationsFYP" />
-      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\project\frontend\src\components" />
-      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\project" />
-      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\BookRecommendationsFYP\frontend" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -160,12 +173,23 @@
       <option name="presentableId" value="Default" />
       <updated>1580725859254</updated>
       <workItem from="1580725919347" duration="6876000" />
-      <workItem from="1580743660008" duration="1784000" />
+      <workItem from="1580743660008" duration="2881000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

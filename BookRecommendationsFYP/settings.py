@@ -57,7 +57,7 @@ ROOT_URLCONF = 'BookRecommendationsFYP.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'BookRecommendationsFYP/../project/../frontend/../templates')]
+        'DIRS': [os.path.join(BASE_DIR, 'BookRecommendationsFYP/../project/../frontend/../frontend/templates')]
         ,
         'APP_DIRS': True,
         'OPTIONS': {

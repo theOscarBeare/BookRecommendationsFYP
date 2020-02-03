@@ -8,7 +8,7 @@ export default props => {
         Home
       </a>
 
-      <a className="menu-item" href="/templates/profile.html">
+      <a className="menu-item" href="/frontend/templates/profile.html">
         Profile
       </a>
 
