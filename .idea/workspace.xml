@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="382b4eb3-c164-4734-994c-2e123005b3e2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Alan Turing Books Page.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/frontend/static/frontend/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/frontend/static/frontend/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/DataTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/DataTable.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Similar Recommendations.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Similar Recommendations.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Similar to previouse Readings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Similar to previouse Readings.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +88,7 @@
     <property name="DatabaseDriversLRU" value="sqlite&#10;postgresql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -92,6 +96,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\frontend\src\components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\frontend\templates\frontend" />
       <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\frontend\templates" />
@@ -168,8 +175,16 @@
       <option name="presentableId" value="Default" />
       <updated>1580725859254</updated>
       <workItem from="1580725919347" duration="6876000" />
-      <workItem from="1580743660008" duration="4674000" />
+      <workItem from="1580743660008" duration="5236000" />
     </task>
+    <task id="LOCAL-00001" summary="Commiting the fuctionality with the backend and database">
+      <created>1580921873321</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580921873321</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +200,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commiting the fuctionality with the backend and database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commiting the fuctionality with the backend and database" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

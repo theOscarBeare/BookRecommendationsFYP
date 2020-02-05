@@ -86,11 +86,12 @@ function createData(name, Books, age) {
 }
 
 const rows = [
-  createData('Charles Babbage', 305, 3.7),
-  createData('Tim Berners-Lee', 452, 25.0),
-  createData('David A. Patterson', 262, 16.0),
-  createData('Donald Kunth', 159, 6.0),
-  createData('Tony Hoare', 356, 16.0),
+  createData('Author', 'Books', 'Age'),
+  createData('Charles Babbage', 2, 80),
+  createData('Tim Berners-Lee', 3, 64),
+  createData('David A. Patterson', 4, 72),
+  createData('Donald Kunth', 6, 82),
+  createData('Tony Hoare', 2, 86),
 ].sort((a, b) => (a.Books < b.Books ? -1 : 1));
 
 const useStyles2 = makeStyles({
