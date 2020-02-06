@@ -23,8 +23,7 @@ urlpatterns = [
     re_path(r'(?P<pk>\d+)', test_app.AuthorView.as_view()),
     path(r'', test_app.AllBooks.as_view()),
     re_path(r'(?P<pk>\d+)', test_app.BooksView.as_view()),
-
-    path('', include('frontend.urls')),
+    path('frontend', include('frontend.urls')),
 
 
 ]

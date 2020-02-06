@@ -89,7 +89,7 @@
     <property name="DatabaseDriversLRU" value="sqlite&#10;postgresql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BookRecommendations" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -174,6 +174,7 @@
       <updated>1580725859254</updated>
       <workItem from="1580725919347" duration="6876000" />
       <workItem from="1580743660008" duration="2881000" />
+      <workItem from="1580810378737" duration="5708000" />
     </task>
     <servers />
   </component>
@@ -185,7 +186,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
