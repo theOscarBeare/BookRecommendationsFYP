@@ -15,6 +15,7 @@ import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft';
 import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
 import LastPageIcon from '@material-ui/icons/LastPage';
 import Popup from 'reactjs-popup';
+import AlanTuringBooksTable from "./Alan Turing Books Page";
 
 
 const useStyles1 = makeStyles(theme => ({
@@ -87,12 +88,12 @@ function createData(name, Books, age) {
 }
 
 const rows = [
-  createData('Alan Turing', 305, 3.7),
-  createData('Tananbarn', 452, 25.0),
-  createData('Fred Brooks', 262, 16.0),
-  createData('Niklaus Wirth', 159, 6.0),
-  createData('Ada Lovelace', 356, 16.0),
-  createData('Dennis Ritchie', 408, 3.2),
+  createData('Author', 'Books', 'Age'),
+    createData('Alan Turing', <Popup modal trigger={<button>2</button>}> <AlanTuringBooksTable/> </Popup>, 42),
+  createData('Fred Brooks', 5, 88),
+  createData('Niklaus Wirth', 1, 85),
+  createData('Ada Lovelace', 1, 37),
+  createData('Dennis Ritchie', 1, 70),
 ] .sort((a, b) => (a.Books < b.Books ? -1 : 1));
 
 const useStyles2 = makeStyles({

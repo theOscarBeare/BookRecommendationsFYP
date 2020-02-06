@@ -86,11 +86,9 @@ function createData(name, Books, age) {
 }
 
 const rows = [
-  createData('Author', 'Books', 'Age'),
-  createData('Grace Hopper', 4, 84),
-  createData('Alan Turing', 2, 42),
-  createData('Donald Kunth', 7, 82),
-  createData('Tony Hoare', 5, 86),
+  createData('Book Title', 'Length', 'Topic'),
+  createData('Mathematical Logic', 306, 'Math'),
+  createData('Mechanical Intelligence', 288, 'Artificial Intelligence'),
 ].sort((a, b) => (a.Books < b.Books ? -1 : 1));
 
 const useStyles2 = makeStyles({
@@ -99,7 +97,7 @@ const useStyles2 = makeStyles({
   },
 });
 
-export default function SimilarRecommendationsActionsTable() {
+export default function AlanTuringBooksTable() {
   const classes = useStyles2();
   const [page, setPage] = React.useState(0);
   const [rowsPerPage, setRowsPerPage] = React.useState(5);
