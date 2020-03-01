@@ -4,33 +4,39 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development frontend/src/index.js --output ./project/frontend/static/frontend/main.js",
-    "build": "webpack --mode production frontend/src/index.js --output ./project/frontend/static/frontend/main.js"
+    "dev": "webpack --mode development frontend/static/frontend/index.js --output ./project/frontend/static/frontend/main.js",
+    "start": "node scripts/start.js",
+    "build": "webpack --mode production frontend/static/frontend/index.js --output ./project/frontend/static/frontend/main.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.8.4",
-    "@babel/preset-env": "^7.8.4",
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
     "@babel/preset-react": "^7.8.3",
-    "@material-ui/core": "^4.9.1",
+    "@material-ui/core": "^4.9.5",
     "@material-ui/icons": "^4.9.1",
+    "@testing-library/react": "^9.4.1",
     "babel-loader": "^8.0.6",
     "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-loader": "^3.4.2",
     "html-webpack-plugin": "^3.2.0",
     "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
     "reactjs-popup": "^1.5.0",
-    "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10",
+    "ts-loader": "^6.2.1",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
     "webpack-node-externals": "^1.7.2"
   },
   "dependencies": {
     "core-util-is": "^1.0.2",
     "react-burger-menu": "^2.6.13",
-    "weak-key": "^1.0.1",
-    "webpack-node-externals": "^1.7.2"
+    "weak-key": "^1.0.2",
+    "webpack-node-externals": "^1.7.2",
+    "yarn": "^1.22.0"
+
   }
 }

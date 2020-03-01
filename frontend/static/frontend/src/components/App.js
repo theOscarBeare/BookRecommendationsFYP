@@ -3,8 +3,8 @@ import './App.css';
 import Card from './DropDown.js';
 import CustomPaginationActionsTable from './DataTable.jsx';
 import Popup from 'reactjs-popup';
-import SimilarRecommendationsActionsTable from './Similar Recommendations';
-import SimilarToPreviousReadingsActionsTable from './Similar to previouse Readings';
+import SimilarRecommendationsActionsTable from './Similar Recommendations.jsx';
+import SimilarToPreviousReadingsActionsTable from './Similar to previouse Readings.jsx';
 
 
 class App extends Component {

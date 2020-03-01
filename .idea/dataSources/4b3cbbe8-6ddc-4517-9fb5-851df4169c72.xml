@@ -10,17 +10,17 @@
       <Owner>postgres</Owner>
       <IntrospectionStateNumber>610</IntrospectionStateNumber>
       <Current>1</Current>
-      <Relations>sequence|table|16641|16643|1
-sequence|table|16682|16684|1
-sequence|table|16537|16539|1
-sequence|table|16422|16398|6
-sequence|table|16516|16518|1
-sequence|table|16527|16529|1
-sequence|table|16555|16557|1
-sequence|table|16563|16565|1
+      <Relations>sequence|table|16682|16684|1
+sequence|table|16641|16643|1
 sequence|table|16573|16575|1
-sequence|table|16545|16547|1
 sequence|table|16581|16583|1
+sequence|table|16563|16565|1
+sequence|table|16537|16539|1
+sequence|table|16555|16557|1
+sequence|table|16545|16547|1
+sequence|table|16516|16518|1
+sequence|table|16422|16398|6
+sequence|table|16527|16529|1
 sequence|table|16403|16405|1
 sequence|table|16485|16398|7
 </Relations>

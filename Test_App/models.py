@@ -24,7 +24,6 @@ class Books(models.Model):
     noofpages = models.CharField(db_column='NoOfPages', max_length=50, blank=True, null=True)  # Field name made lowercase.
     reviewid = models.ForeignKey('Reviews', models.DO_NOTHING, db_column='reviewid', blank=True, null=True)
 
-
     class Meta:
         managed = False
         db_table = 'Books'

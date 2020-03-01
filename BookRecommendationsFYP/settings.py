@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+REACT_APP_DIR = os.path.join('./frontend', 'static')
 
 # Application definition
 
@@ -40,6 +41,10 @@ INSTALLED_APPS = [
     'Test_App.apps.TestAppConfig',
     'rest_framework',
     'frontend',
+]
+
+STATICFILES_DIRS = [
+    os.path.join(REACT_APP_DIR, '/frontend', 'index.js')
 ]
 
 MIDDLEWARE = [
