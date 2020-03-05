@@ -1,9 +1,59 @@
+const path = require('path');
+const webpack = require('webpack');
+const BundleTracker = require('webpack-bundle-tracker');
+const HTMLWebpackPlugin = require('html-webpack-plugin');
+
 module.exports = {
-  entry:'frontend/static/frontend/index.js',
+  context: __dirname,
+
+  entry: {
+    app: './frontend/static/ReactFrontend/index.js',
+    print: './frontend/static/ReactFrontend/index.js'
+  },
+
+
+  output: {
+    path: path.resolve('frontend/static/ReactFrontend/src/components/bundles/'),
+    publicPath: "/",
+    filename: "[name]-[hash].js",
+  },
+
+  plugins: [
+
+      new HTMLWebpackPlugin ({
+        title: 'Book Recommendations',
+      }),
+
+      //tells webpack where to store data about your bundles.
+      new BundleTracker({filename: './webpack-stats.json'}),
+      //makes jQuery available in every module
+      new webpack.ProvidePlugin({
+          $: 'jquery',
+          jQuery: 'jquery',
+          'window.jQuery': 'jquery'
+        })
+    ],
+
   module: {
+
     rules: [
-      {test: /\.css$/, use: 'css-loader'},
-      {test: /\.jsx$/, use: 'babel-loader'},
+
+      {
+        test: /\.css$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'css-loader'
+        }
+      },
+
+      {
+        test: /\.jsx$/,
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader"
+        }
+      },
+
       {
         test: /\.js$/,
         exclude: /node_modules/,
@@ -12,5 +62,5 @@ module.exports = {
         }
       }
     ]
-  }
+  },
 };

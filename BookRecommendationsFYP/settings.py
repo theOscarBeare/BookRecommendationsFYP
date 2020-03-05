@@ -27,7 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-REACT_APP_DIR = os.path.join('./frontend', 'static')
 
 # Application definition
 
@@ -39,13 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'Test_App.apps.TestAppConfig',
+    'webpack',
     'rest_framework',
     'frontend',
+    'webpack_loader',
 ]
 
-STATICFILES_DIRS = [
-    os.path.join(REACT_APP_DIR, '/frontend', 'index.js')
-]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -62,7 +60,8 @@ ROOT_URLCONF = 'BookRecommendationsFYP.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'BookRecommendationsFYP/../project/../frontend/../frontend/templates')]
+        'DIRS': [os.path.join(BASE_DIR,
+                              'BookRecommendationsFYP/../frontend/templates/HTMLFrontend')]
         ,
         'APP_DIRS': True,
         'OPTIONS': {
@@ -118,6 +117,12 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+WEBPACK_LOADER = {
+    'DEFAULT': {
+        'BUNDLE_DIR_NAME': 'bundles/',
+        'STATS_FILE': os.path.join(BASE_DIR, 'webpack.config.js/'),
+    }
+}
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
@@ -136,4 +141,15 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
+STATICFILES_FINDERS = [
+    'webpack.django_integration.WebpackFinder',
+]
 STATIC_URL = '/static/'
+REACT_APP_DIR = os.path.dirname(os.path.realpath(__file__))
+PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
+STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "frontend/static/ReactFrontend/src/components")
+]
+

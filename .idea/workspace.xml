@@ -2,7 +2,107 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="382b4eb3-c164-4734-994c-2e123005b3e2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b3cbbe8-6ddc-4517-9fb5-851df4169c72.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4b3cbbe8-6ddc-4517-9fb5-851df4169c72.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookRecommendationsFYP/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookRecommendationsFYP/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookRecommendationsFYP/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookRecommendationsFYP/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookRecommendationsFYP/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookRecommendationsFYP/view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/frontend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/frontend/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/frontend/src/components/Alan Turing Books Page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/src/components/Alan Turing Books Page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/frontend/src/components/App.Test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/src/components/App.Test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/frontend/src/components/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/src/components/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/frontend/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/frontend/src/components/DataProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/src/components/DataProvider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/frontend/src/components/DataTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/src/components/DataTable.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/frontend/src/components/DropDown.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/src/components/DropDown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/frontend/src/components/Similar Recommendations.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/src/components/Similar Recommendations.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/frontend/src/components/Similar to previouse Readings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/src/components/Similar to previouse Readings.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/frontend/src/components/Table.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/src/components/Table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/templates/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/templates/HTMLFrontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/babel-loader/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/README.es.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/get.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/get.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/lib/content/path.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/lib/content/path.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/lib/content/read.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/lib/content/read.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/lib/content/rm.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/lib/content/rm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/lib/content/write.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/lib/content/write.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/lib/entry-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/lib/entry-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/lib/memoization.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/lib/memoization.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/lib/util/fix-owner.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/lib/util/fix-owner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/lib/util/hash-to-segments.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/lib/util/hash-to-segments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/lib/util/move-file.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/lib/util/move-file.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/lib/util/tmp.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/lib/util/tmp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/lib/util/y.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/lib/verify.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/lib/verify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/locales/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/locales/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/locales/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/locales/es.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/ls.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/ls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/put.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/put.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/rm.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/rm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map-support/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/browser-source-map-support.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map-support/browser-source-map-support.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/dist/source-map.debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/dist/source-map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/dist/source-map.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/dist/source-map.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/lib/array-set.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/lib/base64-vlq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/lib/base64.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/lib/binary-search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/lib/mapping-list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/lib/quick-sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/lib/source-map-consumer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/lib/source-map-generator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/lib/source-node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/lib/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/source-map.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/source-map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map-support/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/source-map-support.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map-support/source-map-support.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ssri/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssri/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ssri/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssri/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ssri/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssri/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ssri/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssri/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/dist/TaskRunner.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/dist/TaskRunner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/dist/minify.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/dist/minify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/dist/worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/dist/worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack/declarations/WebpackOptions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/declarations/WebpackOptions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/ConstPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/ConstPlugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/DllPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/DllPlugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/FlagDependencyUsagePlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/FlagDependencyUsagePlugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/Parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/Parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/optimize/ConcatenatedModule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/optimize/ConcatenatedModule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack/schemas/WebpackOptions.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/schemas/WebpackOptions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yallist/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yallist/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yallist/yallist.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yallist/yallist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yarn/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yarn/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/webpack/templatetags/webpack.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/webpack/templatetags/webpack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -128,14 +228,15 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PyCharm 2019.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\frontend\static\frontend" />
-      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\frontend\static\frontend\src" />
-      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\frontend\static\frontend\src\components" />
-      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\frontend\templates\frontend" />
-      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\frontend\templates\frontend\src" />
+      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP" />
+      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\frontend\templates" />
+      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\frontend" />
+      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\templates\HTMLFrontend" />
+      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\templates" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\frontend\src\components" />
@@ -153,7 +254,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.start">
     <configuration name="Test: frontend" type="DjangoTestsConfigurationType" temporary="true">
       <module name="BookRecommendationsFYP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -230,9 +331,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.build" />
-        <item itemvalue="npm.start" />
         <item itemvalue="Django tests.Test: frontend" />
       </list>
     </recent_temporary>
@@ -272,7 +373,12 @@
       <workItem from="1581353740840" duration="439000" />
       <workItem from="1582113659642" duration="2655000" />
       <workItem from="1583060026199" duration="6436000" />
-      <workItem from="1583082519565" duration="2435000" />
+      <workItem from="1583082519565" duration="7357000" />
+      <workItem from="1583163291901" duration="892000" />
+      <workItem from="1583166253299" duration="4463000" />
+      <workItem from="1583257123882" duration="3381000" />
+      <workItem from="1583316611329" duration="9494000" />
+      <workItem from="1583423270652" duration="3386000" />
     </task>
     <task id="LOCAL-00001" summary="Commiting the fuctionality with the backend and database">
       <created>1580921873321</created>
