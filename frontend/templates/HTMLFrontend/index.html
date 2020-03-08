@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-{% load render_bundle from webpack_loader %}
+    {% load render_bundle from webpack_loader %}
 <head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
-  <title>Book Recommendations</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <title>Book Recommendations</title>
 </head>
-<body>
 
-  <section class="section">
+<body>
+<section class="section">
     <div class="container">
         <p>i am finding the html page</p>
-         <div id="app"></div>
+        <div id="app"></div>
     </div>
-  </section>
-{% render_bundle 'index' 'js' %}
-</body>
+</section>
+
 {% load static %}
 <script src="{% static "ReactFrontend/index.js" %}"></script>
+{% render_bundle 'main' %}
+</body>
+
+
 </html>

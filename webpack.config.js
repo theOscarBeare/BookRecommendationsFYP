@@ -4,28 +4,36 @@ const BundleTracker = require('webpack-bundle-tracker');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+
+    mode: 'development',
+
   context: __dirname,
 
   entry: {
-    app: './frontend/static/ReactFrontend/index.js',
-    print: './frontend/static/ReactFrontend/index.js'
+    app: './frontend/static/ReactFrontend/main.js',
   },
 
 
   output: {
-    path: path.resolve('frontend/static/ReactFrontend/src/components/bundles/'),
-    publicPath: "/",
-    filename: "[name]-[hash].js",
+    path: './frontend/static/ReactFrontend/src/components/bundles/',
+    filename: 'bundle.js',
   },
 
   plugins: [
+
+        //tells webpack where to store data about your bundles.
+      new BundleTracker({
+          path: __dirname,
+          filename: './webpack-stats.json'
+      }),
+
+
 
       new HTMLWebpackPlugin ({
         title: 'Book Recommendations',
       }),
 
-      //tells webpack where to store data about your bundles.
-      new BundleTracker({filename: './webpack-stats.json'}),
+
       //makes jQuery available in every module
       new webpack.ProvidePlugin({
           $: 'jquery',
