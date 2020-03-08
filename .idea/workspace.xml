@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="382b4eb3-c164-4734-994c-2e123005b3e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Alan Turing Books Page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b3cbbe8-6ddc-4517-9fb5-851df4169c72.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4b3cbbe8-6ddc-4517-9fb5-851df4169c72.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/DataTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/DataTable.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Similar Recommendations.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Similar Recommendations.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Similar to previouse Readings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Similar to previouse Readings.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/ReactFrontend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/templates/HTMLFrontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/templates/HTMLFrontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +32,45 @@
       <set />
     </option>
     <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
@@ -83,8 +127,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XIFmLivWwglwzSa04uPDOP3Geh" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="sqlite&#10;postgresql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -94,17 +141,18 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PyCharm 2019.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\frontend\src\components" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\frontend\templates\frontend" />
+      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP" />
       <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\frontend\templates" />
       <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\frontend" />
+      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\templates\HTMLFrontend" />
       <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\templates" />
-      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\frontend\src\components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -119,7 +167,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="Test: frontend" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="BookRecommendationsFYP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="frontend" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="BookRecommendationsFYP" type="Python.DjangoServer" factoryName="Django server">
       <module name="BookRecommendationsFYP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,6 +212,44 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="Django tests.Test: frontend" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
@@ -175,8 +281,18 @@
       <option name="presentableId" value="Default" />
       <updated>1580725859254</updated>
       <workItem from="1580725919347" duration="6876000" />
-      <workItem from="1580743660008" duration="5236000" />
-      <workItem from="1581007638814" duration="2461000" />
+      <workItem from="1580743660008" duration="5549000" />
+      <workItem from="1581020755298" duration="195000" />
+      <workItem from="1581353740840" duration="439000" />
+      <workItem from="1582113659642" duration="2655000" />
+      <workItem from="1583060026199" duration="6436000" />
+      <workItem from="1583082519565" duration="7357000" />
+      <workItem from="1583163291901" duration="892000" />
+      <workItem from="1583166253299" duration="4463000" />
+      <workItem from="1583257123882" duration="3381000" />
+      <workItem from="1583316611329" duration="9494000" />
+      <workItem from="1583423270652" duration="8776000" />
+      <workItem from="1583493168754" duration="4572000" />
     </task>
     <task id="LOCAL-00001" summary="Commiting the fuctionality with the backend and database">
       <created>1580921873321</created>
@@ -185,7 +301,28 @@
       <option name="project" value="LOCAL" />
       <updated>1580921873321</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding to the UI">
+      <created>1580922438959</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580922438959</updated>
+    </task>
+    <task id="LOCAL-00003" summary="refactoring and restructure. &#10;Fixing the loading issue with the react application&#10;improved the paths issues&#10;implemented a view">
+      <created>1583084902451</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583084902451</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Correcting issues to the react application and the webpack config.&#10;Added packages">
+      <created>1583427244810</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583427244810</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,8 +342,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Commiting the fuctionality with the backend and database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commiting the fuctionality with the backend and database" />
+    <MESSAGE value="Adding to the UI" />
+    <MESSAGE value="refactoring and restructure. &#10;Fixing the loading issue with the react application&#10;improved the paths issues&#10;implemented a view" />
+    <MESSAGE value="Correcting issues to the react application and the webpack config.&#10;Added packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correcting issues to the react application and the webpack config.&#10;Added packages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -218,5 +360,8 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BookRecommendationsFYP$Test__frontend.coverage" NAME="Test: frontend Coverage Results" MODIFIED="1583063200920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
