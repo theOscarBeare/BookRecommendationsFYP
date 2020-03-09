@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="382b4eb3-c164-4734-994c-2e123005b3e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b3cbbe8-6ddc-4517-9fb5-851df4169c72.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4b3cbbe8-6ddc-4517-9fb5-851df4169c72.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/static/ReactFrontend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/templates/HTMLFrontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/templates/HTMLFrontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-    </list>
+    <list default="true" id="382b4eb3-c164-4734-994c-2e123005b3e2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -293,6 +281,7 @@
       <workItem from="1583316611329" duration="9494000" />
       <workItem from="1583423270652" duration="8776000" />
       <workItem from="1583493168754" duration="4572000" />
+      <workItem from="1583683347031" duration="122000" />
     </task>
     <task id="LOCAL-00001" summary="Commiting the fuctionality with the backend and database">
       <created>1580921873321</created>
@@ -322,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583427244810</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="committing for work on laptop">
+      <created>1583683408580</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583683408580</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +344,8 @@
     <MESSAGE value="Adding to the UI" />
     <MESSAGE value="refactoring and restructure. &#10;Fixing the loading issue with the react application&#10;improved the paths issues&#10;implemented a view" />
     <MESSAGE value="Correcting issues to the react application and the webpack config.&#10;Added packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correcting issues to the react application and the webpack config.&#10;Added packages" />
+    <MESSAGE value="committing for work on laptop" />
+    <option name="LAST_COMMIT_MESSAGE" value="committing for work on laptop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
