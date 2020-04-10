@@ -22,3 +22,6 @@ export default props => {
     </Menu>
   );
 };
+
+export class create {
+}

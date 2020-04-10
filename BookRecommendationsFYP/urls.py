@@ -19,15 +19,18 @@ from django.conf.urls import url
 from django.conf.urls.static import static
 from django.contrib import admin
 from . import view
-import Test_App.views as test_app
+import DataCall.views as DataCall
+import Recommendations.views as recomendations
 
 
 urlpatterns = [
     # url(r'^', view.FrontendAppView.as_view()),
-    path('', include('frontend.urls')),
+    # path('', include('frontend.urls')),
     path(r'admin/', admin.site.urls),
-    path(r'', test_app.AllAuthor.as_view()),
-    re_path(r'(?P<pk>\d+)', test_app.AuthorView.as_view()),
-    path(r'', test_app.AllBooks.as_view()),
-    re_path(r'(?P<pk>\d+)', test_app.BooksView.as_view()),
+    #path(r'', DataCall.AllAuthor.as_view(), name='AllAuthor'),
+    #re_path(r'(?P<pk>\d+)', DataCall.AuthorView.as_view()),
+    path(r'', recomendations.Allenduser.as_view(), name='Allenduser'),
+    re_path(r'(?P<pk>\d+)', recomendations.enduserView.as_view()),
+    path(r'', DataCall.AllBooks.as_view()),
+    re_path(r'(?P<pk>\d+)', DataCall.BooksView.as_view()),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

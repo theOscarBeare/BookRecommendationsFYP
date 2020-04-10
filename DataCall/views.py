@@ -4,7 +4,6 @@ from rest_framework import status
 from rest_framework.generics import ListAPIView
 from .models import *
 from .serializer import *
-# Create your views here.
 
 
 class AllAuthor(ListAPIView):

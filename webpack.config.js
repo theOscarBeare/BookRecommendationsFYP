@@ -20,20 +20,14 @@ module.exports = {
   },
 
   plugins: [
-
         //tells webpack where to store data about your bundles.
       new BundleTracker({
           path: __dirname,
           filename: './webpack-stats.json'
       }),
-
-
-
       new HTMLWebpackPlugin ({
         title: 'Book Recommendations',
       }),
-
-
       //makes jQuery available in every module
       new webpack.ProvidePlugin({
           $: 'jquery',
@@ -43,9 +37,7 @@ module.exports = {
     ],
 
   module: {
-
     rules: [
-
       {
         test: /\.css$/,
         exclude: /node_modules/,
@@ -53,7 +45,6 @@ module.exports = {
           loader: 'css-loader'
         }
       },
-
       {
         test: /\.jsx$/,
         exclude: /node_modules/,
@@ -61,7 +52,6 @@ module.exports = {
           loader: "babel-loader"
         }
       },
-
       {
         test: /\.js$/,
         exclude: /node_modules/,

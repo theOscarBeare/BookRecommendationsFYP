@@ -1,7 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="382b4eb3-c164-4734-994c-2e123005b3e2" name="Default Changelist" comment="" />
+    <list default="true" id="382b4eb3-c164-4734-994c-2e123005b3e2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/BookRecommendationsFYP/tests/test_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataCall/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataCall/migrations/0003_authorexample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataCall/migrations/0004_delete_authorexample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataCall/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recommendations/Recomendation API/RecomendationGenerator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recommendations/Recomendation API/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recommendations/Recomendation API/analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recommendations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recommendations/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recommendations/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recommendations/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recommendations/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recommendations/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recommendations/serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recommendations/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/scripts/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/src/__tests__/DataTable.Render.Test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/src/__tests__/DataTable.Test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/src/__tests__/Menu.Render.Test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/src/__tests__/Table.Render.Test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/color-name/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/color-name/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/jest/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/jest/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/diff-sequences/build/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/diff-sequences/build/ts3.4/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/diff-sequences/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jest-diff/build/cleanupSemantic.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jest-diff/build/constants.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jest-diff/build/diffLines.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jest-diff/build/diffStrings.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jest-diff/build/getAlignedDiffs.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jest-diff/build/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jest-diff/build/joinAlignedDiffs.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jest-diff/build/normalizeDiffOptions.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jest-diff/build/printDiffs.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jest-diff/build/ts3.4/cleanupSemantic.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jest-diff/build/ts3.4/constants.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jest-diff/build/ts3.4/diffLines.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jest-diff/build/ts3.4/diffStrings.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jest-diff/build/ts3.4/getAlignedDiffs.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jest-diff/build/ts3.4/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jest-diff/build/ts3.4/joinAlignedDiffs.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jest-diff/build/ts3.4/normalizeDiffOptions.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jest-diff/build/ts3.4/printDiffs.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jest-diff/build/ts3.4/types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jest-diff/build/types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jest-diff/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jest-get-type/build/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jest-get-type/build/ts3.4/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jest-get-type/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/BookRecommendationsFYP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BookRecommendationsFYP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b3cbbe8-6ddc-4517-9fb5-851df4169c72.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4b3cbbe8-6ddc-4517-9fb5-851df4169c72.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookRecommendationsFYP/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookRecommendationsFYP/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookRecommendationsFYP/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookRecommendationsFYP/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_App/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookRecommendationsFYP/tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_App/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataCall/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_App/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataCall/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_App/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataCall/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_App/migrations/0002_auto_20200203_1103.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataCall/migrations/0002_auto_20200203_1103.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_App/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookRecommendationsFYP/tests/test_urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_App/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataCall/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_App/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataCall/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_App/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_App/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataCall/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/ReactFrontend/src/components/App.Test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/src/__tests__/App.Render.Test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/ReactFrontend/src/components/DropDown.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/src/components/DropDown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/ReactFrontend/src/components/Similar Recommendations.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/src/components/Similar Recommendations.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/frontend/static/frontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/frontend/static/frontend/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +139,16 @@
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="Books: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
@@ -107,6 +195,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -123,21 +212,21 @@
     <property name="DatabaseDriversLRU" value="sqlite&#10;postgresql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BookRecommendations" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BookRecomendations/frontend/scripts/test.js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PyCharm 2019.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP" />
-      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\frontend\templates" />
+      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\Recommendations\Recomendation API" />
+      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\frontend\static\ReactFrontend\src\__tests__" />
+      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\BookRecommendationsFYP" />
       <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\frontend" />
-      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\templates\HTMLFrontend" />
-      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\templates" />
+      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\Test_App" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\frontend\src\components" />
@@ -155,8 +244,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.start">
-    <configuration name="Test: frontend" type="DjangoTestsConfigurationType" temporary="true">
+  <component name="RunManager" selected="Django tests.Test: BookRecommendationsFYP.tests.test_views.TestViews">
+    <configuration name="Test: BookRecommendationsFYP.tests.test_urls.TestsUrls" type="DjangoTestsConfigurationType" temporary="true">
       <module name="BookRecommendationsFYP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -169,7 +258,87 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="frontend" />
+      <option name="TARGET" value="BookRecommendationsFYP.tests.test_urls.TestsUrls" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: BookRecommendationsFYP.tests.test_views.TestViews" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="BookRecommendationsFYP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="BookRecommendationsFYP.tests.test_views.TestViews" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: BookRecommendationsFYP.tests.test_views.TestViews.test_Language_and_Mind_is_written_by_Chomsky" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="BookRecommendationsFYP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="BookRecommendationsFYP.tests.test_views.TestViews.test_Language_and_Mind_is_written_by_Chomsky" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: BookRecommendationsFYP.tests.test_views.TestViews.test_Turing_is_Not_Charles" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="BookRecommendationsFYP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="BookRecommendationsFYP.tests.test_views.TestViews.test_Turing_is_Not_Charles" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: BookRecommendationsFYP.tests.test_views.TestViews.test_there_is_data_in_the_database" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="BookRecommendationsFYP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="BookRecommendationsFYP.tests.test_views.TestViews.test_there_is_data_in_the_database" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
@@ -200,42 +369,13 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="dev" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
-        <item itemvalue="npm.dev" />
-        <item itemvalue="npm.build" />
-        <item itemvalue="Django tests.Test: frontend" />
+        <item itemvalue="Django tests.Test: BookRecommendationsFYP.tests.test_views.TestViews" />
+        <item itemvalue="Django tests.Test: BookRecommendationsFYP.tests.test_views.TestViews.test_Language_and_Mind_is_written_by_Chomsky" />
+        <item itemvalue="Django tests.Test: BookRecommendationsFYP.tests.test_views.TestViews.test_Turing_is_Not_Charles" />
+        <item itemvalue="Django tests.Test: BookRecommendationsFYP.tests.test_views.TestViews.test_there_is_data_in_the_database" />
+        <item itemvalue="Django tests.Test: BookRecommendationsFYP.tests.test_urls.TestsUrls" />
       </list>
     </recent_temporary>
   </component>
@@ -246,11 +386,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@181fe460" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a6b65c6" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f66a89c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a6b65c6" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@5bccc4e9" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -281,7 +422,22 @@
       <workItem from="1583316611329" duration="9494000" />
       <workItem from="1583423270652" duration="8776000" />
       <workItem from="1583493168754" duration="4572000" />
-      <workItem from="1583683347031" duration="122000" />
+      <workItem from="1583683347031" duration="3219000" />
+      <workItem from="1583935660812" duration="2295000" />
+      <workItem from="1584445154892" duration="313000" />
+      <workItem from="1584541783063" duration="1591000" />
+      <workItem from="1584543694506" duration="3091000" />
+      <workItem from="1584887290368" duration="1359000" />
+      <workItem from="1584889099494" duration="1219000" />
+      <workItem from="1585306259381" duration="3052000" />
+      <workItem from="1585318717949" duration="1147000" />
+      <workItem from="1585322859065" duration="604000" />
+      <workItem from="1585566130970" duration="3057000" />
+      <workItem from="1585654965107" duration="665000" />
+      <workItem from="1585825977219" duration="709000" />
+      <workItem from="1585996688349" duration="5934000" />
+      <workItem from="1586092126439" duration="3932000" />
+      <workItem from="1586185337260" duration="4413000" />
     </task>
     <task id="LOCAL-00001" summary="Commiting the fuctionality with the backend and database">
       <created>1580921873321</created>
@@ -359,6 +515,12 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BookRecommendationsFYP$Test__BookRecommendationsFYP_tests_test_views_TestViews_test_Language_and_Mind_is_written_by_Chomsky.coverage" NAME="Test: BookRecommendationsFYP.tests.test_views.TestViews.test_Language_and_Mind_is_written_by_Chomsky Coverage Results" MODIFIED="1585568546066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BookRecommendationsFYP$Test__BookRecommendationsFYP_tests_test_views_TestViews_test_there_is_data_in_the_database.coverage" NAME="Test: BookRecommendationsFYP.tests.test_views.TestViews.test_there_is_data_in_the_database Coverage Results" MODIFIED="1585568215616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BookRecommendationsFYP$Test__BookRecommendationsFYP_tests_test_urls_TestsUrls.coverage" NAME="Test: BookRecommendationsFYP.tests.test_urls.TestsUrls Coverage Results" MODIFIED="1585312410684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/BookRecommendationsFYP$Test__frontend.coverage" NAME="Test: frontend Coverage Results" MODIFIED="1583063200920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BookRecommendationsFYP$Test__BookRecommendationsFYP_tests_test_views_TestViews_test_Turing_is_Not_Charles.coverage" NAME="Test: BookRecommendationsFYP.tests.test_views.TestViews.test_Turing_is_Not_Charles Coverage Results" MODIFIED="1585568395216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BookRecommendationsFYP$Test__BookRecommendationsFYP_tests_test_views_TestViews.coverage" NAME="Test: BookRecommendationsFYP.tests.test_views.TestViews Coverage Results" MODIFIED="1586093003585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BookRecommendationsFYP$manage.coverage" NAME="manage Coverage Results" MODIFIED="1583936009511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
