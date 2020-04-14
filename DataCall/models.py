@@ -26,6 +26,10 @@ class Books(models.Model):
         managed = False
         db_table = 'Books'
 
+    @classmethod
+    def execute(cls, param):
+        pass
+
 
 class Authorbooks(models.Model):
     authorid = models.ForeignKey(Author, models.DO_NOTHING, db_column='authorid')

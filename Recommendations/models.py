@@ -13,6 +13,10 @@ class enduser(models.Model):
         managed = False
         db_table = 'enduser'
 
+    @classmethod
+    def execute(cls, param):
+        pass
+
 
 class userinformation(models.Model):
     informationid = models.AutoField(db_column='informationid', primary_key=True)
@@ -32,3 +36,7 @@ class userrecommendations(models.Model):
     class Meta:
         managed = True
         db_table = 'userinformation'
+
+    @classmethod
+    def execute(cls, param):
+        pass

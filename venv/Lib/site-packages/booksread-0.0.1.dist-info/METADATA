@@ -1,0 +1,18 @@
+Metadata-Version: 2.0
+Name: booksread
+Version: 0.0.1
+Summary: get all the stats related words from book
+Home-page: https://github.com/Umesh8Joshi/BooksWord
+Author: Umesh Joshi
+Author-email: umesh14el007@gmail.com
+License: MIT
+Keywords: book word autocomplete suggest data 	  			Google author chain machine learning 	  			Umesh Joshi
+Platform: UNKNOWN
+Requires-Dist: PyPDF2
+Requires-Dist: bottle
+Requires-Dist: nltk
+Requires-Dist: textract
+
+UNKNOWN
+
+
