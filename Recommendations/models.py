@@ -22,6 +22,7 @@ class userinformation(models.Model):
     informationid = models.AutoField(db_column='informationid', primary_key=True)
     bookidread = models.ForeignKey(Books, models.DO_NOTHING, db_column='bookidread')
     userid = models.ForeignKey(enduser, models.DO_NOTHING, db_column='userid')
+    bookidreviewed = models.IntegerField(db_column='booksReviewedID')
 
     class Meta:
         managed = False
