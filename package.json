@@ -26,7 +26,7 @@
     "babel-preset-react": "^6.24.1",
     "css-loader": "^3.4.2",
     "html-webpack-plugin": "^4.0.0-beta.11",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "postcss-preset-env": "^6.7.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.0",
