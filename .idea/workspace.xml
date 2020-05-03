@@ -166,15 +166,15 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PyCharm 2019.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\frontend\src\components" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\frontend\static\ReactFrontend" />
       <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\Recommendations\Recomendation API" />
       <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\frontend\static\ReactFrontend\src\__tests__" />
       <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\BookRecommendationsFYP" />
       <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\frontend" />
-      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\Test_App" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Oscar\Documents\BookRecommendationsFYP\frontend\src\components" />
     </key>
   </component>
   <component name="RunDashboard">
