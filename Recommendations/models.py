@@ -36,7 +36,7 @@ class userrecommendations(models.Model):
 
     class Meta:
         managed = True
-        db_table = 'userinformation'
+        db_table = 'userrecommendations'
 
     @classmethod
     def execute(cls, param):

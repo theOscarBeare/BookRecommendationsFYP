@@ -2,17 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="382b4eb3-c164-4734-994c-2e123005b3e2" name="Default Changelist" comment="Improvements made to the Recommendation API">
-      <change afterPath="$PROJECT_DIR$/Recommendations/Recomendation_API/RecomendationGenerator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recommendations/Recomendation_API/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recommendations/Recomendation_API/analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataCall/migrations/0005_authorexample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataCall/migrations/0006_delete_authorexample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataCall/migrations/0007_authorexample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataCall/migrations/0008_delete_authorexample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataCall/migrations/0009_authorexample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataCall/migrations/0010_delete_authorexample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataCall/migrations/0011_authorexample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataCall/migrations/0012_delete_authorexample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataCall/migrations/0013_authorexample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataCall/migrations/0014_delete_authorexample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recommendations/migrations/0002_auto_20200425_1340.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/randomBook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/recommendedBook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/src/components/Ada LovelaceBooksTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/src/components/DennisRitchieBooksTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/src/components/FredBrooksTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/src/components/NiklausWirthTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/src/components/RecommendedBook.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/src/components/randomBook.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/src/components/userProfile.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/userProfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b3cbbe8-6ddc-4517-9fb5-851df4169c72.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4b3cbbe8-6ddc-4517-9fb5-851df4169c72.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookRecommendationsFYP/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookRecommendationsFYP/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataCall/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataCall/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recommendations/Recomendation API/RecomendationGenerator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recommendations/Recomendation API/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookRecommendationsFYP/tests/test_recommendations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recommendations/Recomendation API/analysis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommendations/Recomendation_API/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Recommendations/Recomendation_API/analysis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Recommendations/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Recommendations/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/ReactFrontend/src/components/DataTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/ReactFrontend/src/components/DataTable.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,8 +140,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -145,7 +162,7 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PyCharm 2019.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -311,17 +328,7 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d7f4945" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d7f4945" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@46fa481f" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
@@ -371,6 +378,10 @@
       <workItem from="1586856847050" duration="742000" />
       <workItem from="1587300013407" duration="11843000" />
       <workItem from="1587552546719" duration="4684000" />
+      <workItem from="1587630624038" duration="3499000" />
+      <workItem from="1587807463331" duration="894000" />
+      <workItem from="1587817816616" duration="2300000" />
+      <workItem from="1588514978792" duration="1953000" />
     </task>
     <task id="LOCAL-00001" summary="Commiting the fuctionality with the backend and database">
       <created>1580921873321</created>

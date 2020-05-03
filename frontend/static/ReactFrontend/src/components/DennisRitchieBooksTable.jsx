@@ -14,12 +14,7 @@ import FirstPageIcon from '@material-ui/icons/FirstPage';
 import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft';
 import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
 import LastPageIcon from '@material-ui/icons/LastPage';
-import Popup from 'reactjs-popup';
-import AlanTuringBooksTable from "./Alan Turing Books Page.jsx";
-import FredBrooksBooksTable from "./FredBrooksTable";
-import NiklausWirthBooksTable from "./NiklausWirthTable";
-import AdaLovelaceBooksTable from "./Ada LovelaceBooksTable";
-import DennisRitchieBooksTable from "./DennisRitchieBooksTable";
+
 
 const useStyles1 = makeStyles(theme => ({
   root: {
@@ -91,13 +86,10 @@ function createData(name, Books, age) {
 }
 
 const rows = [
-  createData('Author', 'Books', 'Age'),
-    createData('Alan Turing', <Popup modal trigger={<button>2</button>}> <AlanTuringBooksTable/> </Popup>, 42),
-  createData('Fred Brooks', <Popup model trigger={<button>3</button>}> <FredBrooksBooksTable/> </Popup>, 88),
-  createData('Niklaus Wirth', <Popup model trigger={<button>1</button>}> <NiklausWirthBooksTable/> </Popup>, 85),
-  createData('Ada Lovelace',  <Popup model trigger={<button>1</button>}> <AdaLovelaceBooksTable/> </Popup>, 37),
-  createData('Dennis Ritchie',  <Popup model trigger={<button>1</button>}> <DennisRitchieBooksTable/> </Popup>, 70),
-] .sort((a, b) => (a.Books < b.Books ? -1 : 1));
+  createData('Book Title', 'Length', 'Topic'),
+  createData('Mathematical Logic', 306, 'Math'),
+  createData('Mechanical Intelligence', 288, 'Artificial Intelligence'),
+].sort((a, b) => (a.Books < b.Books ? -1 : 1));
 
 const useStyles2 = makeStyles({
   table: {
@@ -105,7 +97,7 @@ const useStyles2 = makeStyles({
   },
 });
 
-export default function CustomPaginationActionsTable() {
+export default function DennisRitchieBooksTable() {
   const classes = useStyles2();
   const [page, setPage] = React.useState(0);
   const [rowsPerPage, setRowsPerPage] = React.useState(5);

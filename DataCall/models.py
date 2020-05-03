@@ -15,6 +15,7 @@ class Author(models.Model):
         db_table = 'Author'
 
 
+
 class Books(models.Model):
     bookid = models.AutoField(db_column='BookID', primary_key=True)  # Field name made lowercase.
     bookisbn = models.IntegerField(db_column='BookISBN', blank=True, null=True)  # Field name made lowercase.

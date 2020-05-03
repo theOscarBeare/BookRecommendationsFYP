@@ -10,7 +10,7 @@ booksViewed = []
 def setEnduserBooksRead(enduserID):
     global BooksList
     enduser.objects.filter(enduserID=enduserID)
-    booksReadID = enduser.execute("select bookidread from public.userinformation WHERE userid = enduserID and;")
+    booksReadID = enduser.execute("select bookidread from public.userinformation WHERE userid = enduserID;")
     for i in booksReadID:
         booksReadID = booksReadID[i]
         [BooksList] = Books.execute("select * from public.Books WHERE bookid = booksReadID;")
