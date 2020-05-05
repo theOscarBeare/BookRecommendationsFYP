@@ -11,7 +11,7 @@ class App extends Component {
           <div id="recommendations">
               <Card pageWrapId={"page-wrap"} outerContainerId={"recommendations"} />
                 <header className="recommendations-header">
-                    <h1 className="recommendations-title">Welcome to Book Recommendations</h1>
+                    <h1 className="recommendations-title">Recommended Books</h1>
                 </header>
               <div id="page-wrap">
                 <body className="recommendations-intro">

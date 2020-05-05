@@ -11,7 +11,7 @@ class App extends Component {
           <div id="randomBook">
               <Card pageWrapId={"page-wrap"} outerContainerId={"randomBook"} />
                 <header className="randomBook-header">
-                    <h1 className="randomBook-title">Welcome to Book Recommendations</h1>
+                    <h1 className="randomBook-title">Random Book</h1>
                 </header>
               <div id="page-wrap">
                 <body className="randomBook-intro">

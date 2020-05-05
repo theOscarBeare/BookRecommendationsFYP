@@ -8,7 +8,7 @@ from django.shortcuts import render
 
 
 def index(request):
-    return render(request, '../frontend/static/HTMLFrontend/index.html')
+    return render(request, '../frontend/templates/HTMLFrontend/index.html')
 
 
 class FrontendAppView(View):
@@ -31,6 +31,7 @@ class FrontendAppView(View):
                 """,
                 status=501,
             )
+
 
 
 
